@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>McStreamy</id>
+        <version>1.0.0.0</version>
+        <title>McStreamy</title>
+        <authors>Troy Willmot</authors>
+        <owners>Yortw</owners>
+        <licenseUrl>https://github.com/Yortw/McStreamy/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Yortw/McStreamy</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/Yortw/McStreamy/master/McStreamyIcon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A library for dealing with streams in .Net.</description>
+        <copyright>Copyright 2016</copyright>
+        <language>en-AU</language>
+        <tags>portable xamarin ios android windowsphone winrt uwp mobile stream upnp netfx40 .net4</tags>
+    </metadata>
+    <files>
+        <file src="McStreamy.NetStandard10\bin\Release\McStreamy*.dll" target="lib\netstandard1.0" />
+        <file src="McStreamy.NetStandard10\bin\Release\McStreamy*.xml" target="lib\netstandard1.0" />
+        <file src="McStreamy.NetStandard10\bin\Release\McStreamy*.pdb" target="lib\netstandard1.0" />
+        <file src="McStreamy.Portable\bin\Release\McStreamy*.dll" target="lib\portable-net4+sl5+wp8+win8" />
+        <file src="McStreamy.Portable\bin\Release\McStreamy*.xml" target="lib\portable-net4+sl5+wp8+win8" />
+        <file src="McStreamy.Portable\bin\Release\McStreamy*.pdb" target="lib\portable-net4+sl5+wp8+win8" />
+        <file src="**\*.cs" target="src" />
+    </files>
+</package>
