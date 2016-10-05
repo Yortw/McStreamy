@@ -50,9 +50,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ByteArrayExtensionTests.cs" />
     <Compile Include="MockStream.cs" />
     <Compile Include="NonClosingStreamAdapterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StreamExtensionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\McStreamy.NetStandard10\McStreamy.NetStandard10.csproj">

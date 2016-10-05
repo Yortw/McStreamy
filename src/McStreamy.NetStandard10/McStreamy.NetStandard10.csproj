@@ -48,8 +48,14 @@
     <Compile Include="..\Shared\AssemblyInfoCommon.cs">
       <Link>Properties\AssemblyInfoCommon.cs</Link>
     </Compile>
+    <Compile Include="..\Shared\ByteArrayExtensions.cs">
+      <Link>ByteArrayExtensions.cs</Link>
+    </Compile>
     <Compile Include="..\Shared\NonClosingStreamAdapter.cs">
       <Link>NonClosingStreamAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\Shared\StreamExtensions.cs">
+      <Link>StreamExtensions.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
