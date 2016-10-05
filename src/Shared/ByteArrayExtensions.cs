@@ -20,6 +20,5 @@ namespace McStreamy
 			return new System.IO.MemoryStream(buffer);
 		}
 
-
 	}
 }
