@@ -98,7 +98,7 @@ namespace McStreamy
 		/// Reads the contents of stream from it's current point to the end and returns the result as a string.
 		/// </summary>
 		/// <remarks>
-		/// <para>This overload uses the <see cref="System.Text.UTF8Encoding"/> to conver the stream contents into a string.</para>
+		/// <para>This overload uses the <see cref="System.Text.UTF8Encoding"/> to convert the stream contents into a string.</para>
 		/// </remarks>
 		/// <param name="stream">The stream to read from.</param>
 		/// <returns>A <see cref="System.String"/> representation of the stream contents.</returns>
@@ -140,7 +140,7 @@ namespace McStreamy
 		/// Reads the contents of stream from it's current point to the end and returns the result as a string.
 		/// </summary>
 		/// <remarks>
-		/// <para>This overload uses the <see cref="System.Text.UTF8Encoding"/> to conver the stream contents into a string.</para>
+		/// <para>This overload uses the <see cref="System.Text.UTF8Encoding"/> to convert the stream contents into a string.</para>
 		/// </remarks>
 		/// <param name="stream">The stream to read from.</param>
 		/// <returns>A <see cref="System.Threading.Tasks.Task"/> whose result is the string representation of the stream contents.</returns>

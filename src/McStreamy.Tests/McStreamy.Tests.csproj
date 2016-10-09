@@ -55,6 +55,7 @@
     <Compile Include="NonClosingStreamAdapterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExtensionTests.cs" />
+    <Compile Include="StringExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\McStreamy.NetStandard10\McStreamy.NetStandard10.csproj">

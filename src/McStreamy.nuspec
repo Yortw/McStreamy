@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>McStreamy</id>
-        <version>1.0.0.0</version>
+        <version>1.0.0.1</version>
         <title>McStreamy</title>
         <authors>Troy Willmot</authors>
         <owners>Yortw</owners>
@@ -27,28 +27,6 @@
         <file src="McStreamy.Portable\bin\Release\McStreamy.Portable.dll" target="lib\portable-net4+sl5+wp8+win8\McStreamy.Portable.dll" />
         <file src="McStreamy.Portable\bin\Release\McStreamy.Portable.pdb" target="lib\portable-net4+sl5+wp8+win8\McStreamy.Portable.pdb" />
         <file src="McStreamy.Portable\bin\Release\McStreamy.Portable.XML" target="lib\portable-net4+sl5+wp8+win8\McStreamy.Portable.XML" />
-        <file src="McStreamy.NetStandard10\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="src\McStreamy.NetStandard10\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-        <file src="McStreamy.NetStandard10\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="src\McStreamy.NetStandard10\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-        <file src="McStreamy.NetStandard10\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="src\McStreamy.NetStandard10\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-        <file src="McStreamy.NetStandard10\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="src\McStreamy.NetStandard10\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-        <file src="McStreamy.NetStandard10\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="src\McStreamy.NetStandard10\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-        <file src="McStreamy.NetStandard10\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="src\McStreamy.NetStandard10\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-        <file src="McStreamy.NetStandard10\Properties\AssemblyInfo.cs" target="src\McStreamy.NetStandard10\Properties\AssemblyInfo.cs" />
-        <file src="McStreamy.Portable\Properties\AssemblyInfo.cs" target="src\McStreamy.Portable\Properties\AssemblyInfo.cs" />
-        <file src="McStreamy.Tests\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="src\McStreamy.Tests\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-        <file src="McStreamy.Tests\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="src\McStreamy.Tests\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-        <file src="McStreamy.Tests\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="src\McStreamy.Tests\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-        <file src="McStreamy.Tests\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="src\McStreamy.Tests\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-        <file src="McStreamy.Tests\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="src\McStreamy.Tests\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-        <file src="McStreamy.Tests\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="src\McStreamy.Tests\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-        <file src="McStreamy.Tests\Properties\AssemblyInfo.cs" target="src\McStreamy.Tests\Properties\AssemblyInfo.cs" />
-        <file src="McStreamy.Tests\ByteArrayExtensionTests.cs" target="src\McStreamy.Tests\ByteArrayExtensionTests.cs" />
-        <file src="McStreamy.Tests\MockStream.cs" target="src\McStreamy.Tests\MockStream.cs" />
-        <file src="McStreamy.Tests\NonClosingStreamAdapterTests.cs" target="src\McStreamy.Tests\NonClosingStreamAdapterTests.cs" />
-        <file src="McStreamy.Tests\StreamExtensionTests.cs" target="src\McStreamy.Tests\StreamExtensionTests.cs" />
-        <file src="Shared\AssemblyInfoCommon.cs" target="src\Shared\AssemblyInfoCommon.cs" />
-        <file src="Shared\ByteArrayExtensions.cs" target="src\Shared\ByteArrayExtensions.cs" />
-        <file src="Shared\NonClosingStreamAdapter.cs" target="src\Shared\NonClosingStreamAdapter.cs" />
-        <file src="Shared\StreamExtensions.cs" target="src\Shared\StreamExtensions.cs" />
+        <file src="**\*.cs" target="src" />
     </files>
 </package>

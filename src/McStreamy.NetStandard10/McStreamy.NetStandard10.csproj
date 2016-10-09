@@ -57,6 +57,9 @@
     <Compile Include="..\Shared\StreamExtensions.cs">
       <Link>StreamExtensions.cs</Link>
     </Compile>
+    <Compile Include="..\Shared\StringExtensions.cs">
+      <Link>StringExtensions.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
