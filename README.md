@@ -3,6 +3,8 @@
 ## What is it ?
 A library for dealing with streams in .Net. Contains wrappers, extension methods, stream implementations etc.
 
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Yortw/McStreamy/blob/master/LICENSE.md) 
+
 ## Supported Platforms
 Currently;
 
