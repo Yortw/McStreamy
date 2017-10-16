@@ -33,7 +33,7 @@ items:
   source:
     id: NonClosingStreamAdapter
     path: ''
-    startLine: 245
+    startLine: 124
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -69,7 +69,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 261
+    startLine: 140
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -101,7 +101,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 276
+    startLine: 155
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -134,7 +134,7 @@ items:
   source:
     id: WriteTimeout
     path: ''
-    startLine: 285
+    startLine: 164
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -170,7 +170,7 @@ items:
   source:
     id: WriteByte
     path: ''
-    startLine: 302
+    startLine: 181
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -204,7 +204,7 @@ items:
   source:
     id: ReadByte
     path: ''
-    startLine: 311
+    startLine: 190
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -237,7 +237,7 @@ items:
   source:
     id: ReadTimeout
     path: ''
-    startLine: 320
+    startLine: 199
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -273,7 +273,7 @@ items:
   source:
     id: CanTimeout
     path: ''
-    startLine: 337
+    startLine: 216
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -309,7 +309,7 @@ items:
   source:
     id: CanRead
     path: ''
-    startLine: 349
+    startLine: 228
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -345,7 +345,7 @@ items:
   source:
     id: CanSeek
     path: ''
-    startLine: 361
+    startLine: 240
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -381,7 +381,7 @@ items:
   source:
     id: CanWrite
     path: ''
-    startLine: 373
+    startLine: 252
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -417,7 +417,7 @@ items:
   source:
     id: Length
     path: ''
-    startLine: 385
+    startLine: 264
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -453,7 +453,7 @@ items:
   source:
     id: Position
     path: ''
-    startLine: 397
+    startLine: 276
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -489,7 +489,7 @@ items:
   source:
     id: Flush
     path: ''
-    startLine: 413
+    startLine: 292
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -519,7 +519,7 @@ items:
   source:
     id: Read
     path: ''
-    startLine: 425
+    startLine: 304
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -565,7 +565,7 @@ items:
   source:
     id: Seek
     path: ''
-    startLine: 436
+    startLine: 315
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -605,7 +605,7 @@ items:
   source:
     id: SetLength
     path: ''
-    startLine: 445
+    startLine: 324
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -639,7 +639,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 456
+    startLine: 335
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -682,7 +682,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 465
+    startLine: 344
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -795,11 +795,6 @@ references:
   fullName: McStreamy.NonClosingStreamAdapter.ToString
 - uid: System.IO.Stream.WriteTimeout
   commentId: P:System.IO.Stream.WriteTimeout
-  parent: System.IO.Stream
-  isExternal: true
-  name: WriteTimeout
-  nameWithType: Stream.WriteTimeout
-  fullName: System.IO.Stream.WriteTimeout
 - uid: McStreamy.NonClosingStreamAdapter.WriteTimeout*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.WriteTimeout
   isExternal: false
@@ -838,11 +833,6 @@ references:
   fullName: McStreamy.NonClosingStreamAdapter.ReadByte
 - uid: System.IO.Stream.ReadTimeout
   commentId: P:System.IO.Stream.ReadTimeout
-  parent: System.IO.Stream
-  isExternal: true
-  name: ReadTimeout
-  nameWithType: Stream.ReadTimeout
-  fullName: System.IO.Stream.ReadTimeout
 - uid: McStreamy.NonClosingStreamAdapter.ReadTimeout*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.ReadTimeout
   isExternal: false
@@ -851,11 +841,6 @@ references:
   fullName: McStreamy.NonClosingStreamAdapter.ReadTimeout
 - uid: System.IO.Stream.CanTimeout
   commentId: P:System.IO.Stream.CanTimeout
-  parent: System.IO.Stream
-  isExternal: true
-  name: CanTimeout
-  nameWithType: Stream.CanTimeout
-  fullName: System.IO.Stream.CanTimeout
 - uid: McStreamy.NonClosingStreamAdapter.CanTimeout*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.CanTimeout
   isExternal: false
@@ -871,11 +856,6 @@ references:
   fullName: System.Boolean
 - uid: System.IO.Stream.CanRead
   commentId: P:System.IO.Stream.CanRead
-  parent: System.IO.Stream
-  isExternal: true
-  name: CanRead
-  nameWithType: Stream.CanRead
-  fullName: System.IO.Stream.CanRead
 - uid: McStreamy.NonClosingStreamAdapter.CanRead*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.CanRead
   isExternal: false
@@ -884,11 +864,6 @@ references:
   fullName: McStreamy.NonClosingStreamAdapter.CanRead
 - uid: System.IO.Stream.CanSeek
   commentId: P:System.IO.Stream.CanSeek
-  parent: System.IO.Stream
-  isExternal: true
-  name: CanSeek
-  nameWithType: Stream.CanSeek
-  fullName: System.IO.Stream.CanSeek
 - uid: McStreamy.NonClosingStreamAdapter.CanSeek*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.CanSeek
   isExternal: false
@@ -897,11 +872,6 @@ references:
   fullName: McStreamy.NonClosingStreamAdapter.CanSeek
 - uid: System.IO.Stream.CanWrite
   commentId: P:System.IO.Stream.CanWrite
-  parent: System.IO.Stream
-  isExternal: true
-  name: CanWrite
-  nameWithType: Stream.CanWrite
-  fullName: System.IO.Stream.CanWrite
 - uid: McStreamy.NonClosingStreamAdapter.CanWrite*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.CanWrite
   isExternal: false
@@ -910,11 +880,6 @@ references:
   fullName: McStreamy.NonClosingStreamAdapter.CanWrite
 - uid: System.IO.Stream.Length
   commentId: P:System.IO.Stream.Length
-  parent: System.IO.Stream
-  isExternal: true
-  name: Length
-  nameWithType: Stream.Length
-  fullName: System.IO.Stream.Length
 - uid: McStreamy.NonClosingStreamAdapter.Length*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.Length
   isExternal: false
@@ -930,11 +895,6 @@ references:
   fullName: System.Int64
 - uid: System.IO.Stream.Position
   commentId: P:System.IO.Stream.Position
-  parent: System.IO.Stream
-  isExternal: true
-  name: Position
-  nameWithType: Stream.Position
-  fullName: System.IO.Stream.Position
 - uid: McStreamy.NonClosingStreamAdapter.Position*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.Position
   isExternal: false
@@ -943,35 +903,6 @@ references:
   fullName: McStreamy.NonClosingStreamAdapter.Position
 - uid: System.IO.Stream.Flush
   commentId: M:System.IO.Stream.Flush
-  parent: System.IO.Stream
-  isExternal: true
-  name: Flush()
-  nameWithType: Stream.Flush()
-  fullName: System.IO.Stream.Flush()
-  spec.csharp:
-  - uid: System.IO.Stream.Flush
-    name: Flush
-    nameWithType: Stream.Flush
-    fullName: System.IO.Stream.Flush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.Stream.Flush
-    name: Flush
-    nameWithType: Stream.Flush
-    fullName: System.IO.Stream.Flush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: McStreamy.NonClosingStreamAdapter.Flush*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.Flush
   isExternal: false
@@ -980,86 +911,6 @@ references:
   fullName: McStreamy.NonClosingStreamAdapter.Flush
 - uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
   commentId: M:System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
-  parent: System.IO.Stream
-  isExternal: true
-  name: Read(Byte[], Int32, Int32)
-  nameWithType: Stream.Read(Byte[], Int32, Int32)
-  fullName: System.IO.Stream.Read(System.Byte[], System.Int32, System.Int32)
-  nameWithType.vb: Stream.Read(Byte(), Int32, Int32)
-  fullName.vb: System.IO.Stream.Read(System.Byte(), System.Int32, System.Int32)
-  name.vb: Read(Byte(), Int32, Int32)
-  spec.csharp:
-  - uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
-    name: Read
-    nameWithType: Stream.Read
-    fullName: System.IO.Stream.Read
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
-    name: Read
-    nameWithType: Stream.Read
-    fullName: System.IO.Stream.Read
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: McStreamy.NonClosingStreamAdapter.Read*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.Read
   isExternal: false
@@ -1093,61 +944,6 @@ references:
     fullName: ()
 - uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
   commentId: M:System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
-  parent: System.IO.Stream
-  isExternal: true
-  name: Seek(Int64, SeekOrigin)
-  nameWithType: Stream.Seek(Int64, SeekOrigin)
-  fullName: System.IO.Stream.Seek(System.Int64, System.IO.SeekOrigin)
-  spec.csharp:
-  - uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
-    name: Seek
-    nameWithType: Stream.Seek
-    fullName: System.IO.Stream.Seek
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.IO.SeekOrigin
-    name: SeekOrigin
-    nameWithType: SeekOrigin
-    fullName: System.IO.SeekOrigin
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
-    name: Seek
-    nameWithType: Stream.Seek
-    fullName: System.IO.Stream.Seek
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.IO.SeekOrigin
-    name: SeekOrigin
-    nameWithType: SeekOrigin
-    fullName: System.IO.SeekOrigin
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.IO.SeekOrigin
   commentId: T:System.IO.SeekOrigin
 - uid: McStreamy.NonClosingStreamAdapter.Seek*
@@ -1157,51 +953,13 @@ references:
   nameWithType: NonClosingStreamAdapter.Seek
   fullName: McStreamy.NonClosingStreamAdapter.Seek
 - uid: SeekOrigin
+  commentId: '!:SeekOrigin'
   isExternal: true
   name: SeekOrigin
   nameWithType: SeekOrigin
   fullName: SeekOrigin
 - uid: System.IO.Stream.SetLength(System.Int64)
   commentId: M:System.IO.Stream.SetLength(System.Int64)
-  parent: System.IO.Stream
-  isExternal: true
-  name: SetLength(Int64)
-  nameWithType: Stream.SetLength(Int64)
-  fullName: System.IO.Stream.SetLength(System.Int64)
-  spec.csharp:
-  - uid: System.IO.Stream.SetLength(System.Int64)
-    name: SetLength
-    nameWithType: Stream.SetLength
-    fullName: System.IO.Stream.SetLength
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.Stream.SetLength(System.Int64)
-    name: SetLength
-    nameWithType: Stream.SetLength
-    fullName: System.IO.Stream.SetLength
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int64
-    name: Int64
-    nameWithType: Int64
-    fullName: System.Int64
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: McStreamy.NonClosingStreamAdapter.SetLength*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.SetLength
   isExternal: false
@@ -1210,86 +968,6 @@ references:
   fullName: McStreamy.NonClosingStreamAdapter.SetLength
 - uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
   commentId: M:System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
-  parent: System.IO.Stream
-  isExternal: true
-  name: Write(Byte[], Int32, Int32)
-  nameWithType: Stream.Write(Byte[], Int32, Int32)
-  fullName: System.IO.Stream.Write(System.Byte[], System.Int32, System.Int32)
-  nameWithType.vb: Stream.Write(Byte(), Int32, Int32)
-  fullName.vb: System.IO.Stream.Write(System.Byte(), System.Int32, System.Int32)
-  name.vb: Write(Byte(), Int32, Int32)
-  spec.csharp:
-  - uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
-    name: Write
-    nameWithType: Stream.Write
-    fullName: System.IO.Stream.Write
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
-    name: Write
-    nameWithType: Stream.Write
-    fullName: System.IO.Stream.Write
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: McStreamy.NonClosingStreamAdapter.Write*
   commentId: Overload:McStreamy.NonClosingStreamAdapter.Write
   isExternal: false

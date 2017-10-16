@@ -32,4 +32,4 @@ Install the Nuget package like this;
 [![NuGet Badge](https://buildstats.info/nuget/mcstreamy)](https://www.nuget.org/packages/mcstreamy/)
 
 # What's In The Box?
-See the [wiki](https://github.com/Yortw/McStreamy/wiki) for contents/help.
+See the [wiki](https://github.com/Yortw/McStreamy/wiki) or [API Documentation](https://yortw.github.io/McStreamy/api/McStreamy.html) for contents/help.

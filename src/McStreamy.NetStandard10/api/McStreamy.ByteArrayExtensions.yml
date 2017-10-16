@@ -16,7 +16,7 @@ items:
   source:
     id: ByteArrayExtensions
     path: ''
-    startLine: 215
+    startLine: 94
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -57,7 +57,7 @@ items:
   source:
     id: ToStream
     path: ''
-    startLine: 222
+    startLine: 101
   assemblies:
   - cs.temp.dll
   namespace: McStreamy

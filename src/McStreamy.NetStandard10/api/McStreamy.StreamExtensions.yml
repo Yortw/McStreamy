@@ -23,7 +23,7 @@ items:
   source:
     id: StreamExtensions
     path: ''
-    startLine: 537
+    startLine: 416
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -64,7 +64,7 @@ items:
   source:
     id: WriteAllBytes
     path: ''
-    startLine: 548
+    startLine: 427
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -112,7 +112,7 @@ items:
   source:
     id: WriteAllBytesAsync
     path: ''
-    startLine: 564
+    startLine: 443
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -163,7 +163,7 @@ items:
   source:
     id: ReadAllBytes
     path: ''
-    startLine: 586
+    startLine: 465
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -209,7 +209,7 @@ items:
   source:
     id: ReadAllBytesAsync
     path: ''
-    startLine: 606
+    startLine: 485
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -255,7 +255,7 @@ items:
   source:
     id: ReadAsString
     path: ''
-    startLine: 631
+    startLine: 510
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -303,7 +303,7 @@ items:
   source:
     id: ReadAsString
     path: ''
-    startLine: 644
+    startLine: 523
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -344,7 +344,7 @@ items:
   source:
     id: ReadAsStringAsync
     path: ''
-    startLine: 673
+    startLine: 552
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -392,7 +392,7 @@ items:
   source:
     id: ReadAsStringAsync
     path: ''
-    startLine: 686
+    startLine: 565
   assemblies:
   - cs.temp.dll
   namespace: McStreamy

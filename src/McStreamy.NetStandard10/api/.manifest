@@ -32,20 +32,5 @@
   "McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream,System.Byte[])": "McStreamy.StreamExtensions.yml",
   "McStreamy.StringExtensions": "McStreamy.StringExtensions.yml",
   "McStreamy.StringExtensions.ToStream(System.String)": "McStreamy.StringExtensions.yml",
-  "McStreamy.StringExtensions.ToStream(System.String,System.Text.Encoding)": "McStreamy.StringExtensions.yml",
-  "McStreamy.Tests": "McStreamy.Tests.yml",
-  "McStreamy.Tests.MockStream": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.CanRead": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.CanSeek": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.CanWrite": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.Flush": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.FlushCalled": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.Length": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.Position": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.Read(System.Byte[],System.Int32,System.Int32)": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.ReadTimeout": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.Seek(System.Int64,SeekOrigin)": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.SetLength(System.Int64)": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.Write(System.Byte[],System.Int32,System.Int32)": "McStreamy.Tests.MockStream.yml",
-  "McStreamy.Tests.MockStream.WriteTimeout": "McStreamy.Tests.MockStream.yml"
+  "McStreamy.StringExtensions.ToStream(System.String,System.Text.Encoding)": "McStreamy.StringExtensions.yml"
 }

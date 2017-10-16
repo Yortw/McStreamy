@@ -10,8 +10,3 @@
     name: StreamExtensions
   - uid: McStreamy.StringExtensions
     name: StringExtensions
-- uid: McStreamy.Tests
-  name: McStreamy.Tests
-  items:
-  - uid: McStreamy.Tests.MockStream
-    name: MockStream
