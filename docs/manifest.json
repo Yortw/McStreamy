@@ -1,0 +1,652 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Projects/GitHub/McStreamy/src/McStreamy.NetStandard10",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.ByteArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.ByteArrayExtensions.ToStream.html",
+          "hash": "zR5NlQG1q9xLlu+/rxUV6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.ByteArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.ByteArrayExtensions.html",
+          "hash": "D7g2jxaHuxKRWVtp+6/Pkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.-ctor.html",
+          "hash": "WG/adOkFOFtwjgtgChnsxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.Read.html",
+          "hash": "H5sCUcbjhxt4ZUGdy20i8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.Seek.html",
+          "hash": "1MTy5R83uU7ltZ0iW/QpZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.SetLength.html",
+          "hash": "13CgmxUtFeCMn5u4EwazuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.Write.html",
+          "hash": "dliwQ9Of4mFKcQPD12PAlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.Dispose.html",
+          "hash": "N/TG9/dmrQlKLEdqBeYZ9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.CanRead.html",
+          "hash": "QVe8zelpKqH0sBHkM8eHJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.CanSeek.html",
+          "hash": "dSQPjvmcKobmXiYxfg0HxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.CanWrite.html",
+          "hash": "C+AUAgI+OE3G8xkc1IeLWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.Length.html",
+          "hash": "EBYpBZGxY6Q0bLTGAigfQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.Position.html",
+          "hash": "WAy99uiVj8TSTL76OUOWPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.Flush.html",
+          "hash": "Eh+mPNND4SUiFChDf698DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.html",
+          "hash": "jUvSOaLWAwf67+WMMoxwrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.ToString.html",
+          "hash": "aFYH/tVcy20pqOF4qoFHZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.WriteTimeout.html",
+          "hash": "sJ6/RX/3onLozvS5hIPjUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.WriteByte.html",
+          "hash": "CVdKh65p5wwT9Nb6r5m7LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.ReadByte.html",
+          "hash": "p3DvlDfqaoBPJ9Pyh1Mq+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.ReadTimeout.html",
+          "hash": "IWh5tAR+6oStnCrZRXnB9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.NonClosingStreamAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.NonClosingStreamAdapter.CanTimeout.html",
+          "hash": "OFGYoXFmjpimjlZIWkdKPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.StreamExtensions.ReadAsStringAsync.html",
+          "hash": "3FtIUH9P2AF3Qgw6luAN1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.StreamExtensions.html",
+          "hash": "9LW7aorbW2yHb6kmWSzQKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.StreamExtensions.WriteAllBytes.html",
+          "hash": "Ps42MQd9eGKnqJkYG5HBcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.StreamExtensions.WriteAllBytesAsync.html",
+          "hash": "vFm+4fzkrla/Fo3LMIpNmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.StreamExtensions.ReadAllBytes.html",
+          "hash": "ohdmdtOaXv3NNng1RETP0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.StreamExtensions.ReadAllBytesAsync.html",
+          "hash": "emt5FnjDI7bskef/gax/Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.StreamExtensions.ReadAsString.html",
+          "hash": "yfTBcUs9cqYGSCesEWannw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.StringExtensions.ToStream.html",
+          "hash": "1mHbf3ecN7CWSqneeBEf4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.StringExtensions.html",
+          "hash": "tQfC5Mj3uTLIbMF2cmDUYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.ReadTimeout.html",
+          "hash": "SbUQxWNJOYykXqS23jc8GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.WriteTimeout.html",
+          "hash": "L5bj0kiW2KwkG5R8hCkVoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.CanRead.html",
+          "hash": "0p+CTqoKRJuA9yWS59xy9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.html",
+          "hash": "O+VXHCkvLQAvoOUxqBf0rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.Seek.html",
+          "hash": "KybeKjPVDaZYYuYK+Xzhxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.SetLength.html",
+          "hash": "bnlyepX7+agpdm1xqMyVwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.Write.html",
+          "hash": "5MmLbk7wgKpSJcpNYt8M5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.FlushCalled.html",
+          "hash": "gIaWVqX1tqdIsUsB4gGXBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.CanSeek.html",
+          "hash": "/tOI75X89M0VmzeDxDLY5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.CanWrite.html",
+          "hash": "j6SyDjXlAw/hkA9BXPF+AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.Length.html",
+          "hash": "F3Au+xxy5vNxTq/7ogrWAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.Position.html",
+          "hash": "QR1MMX29Ge29FWsdNy+/YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.Flush.html",
+          "hash": "WlMt36hUeKh2Te0IMAseaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.MockStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.MockStream.Read.html",
+          "hash": "LcYDHybA0HkN7uiVghP3xA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.Tests.html",
+          "hash": "ODRwmVy9g/OTlrI0ZcVnxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/McStreamy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/McStreamy.html",
+          "hash": "ZxD+yYHuZwBd0xuYOGysYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/McStreamyIcon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/McStreamyIcon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/McStreamyIcon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/McStreamyIcon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/McStreamyIconSmall.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/McStreamyIconSmall.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "+HynKO5oKqtwMnCfU86sPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

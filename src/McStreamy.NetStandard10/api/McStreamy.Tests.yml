@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: McStreamy.Tests
+  commentId: N:McStreamy.Tests
+  id: McStreamy.Tests
+  children:
+  - McStreamy.Tests.MockStream
+  langs:
+  - csharp
+  - vb
+  name: McStreamy.Tests
+  nameWithType: McStreamy.Tests
+  fullName: McStreamy.Tests
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: McStreamy.Tests.MockStream
+  commentId: T:McStreamy.Tests.MockStream
+  isExternal: false
+  name: MockStream
+  nameWithType: MockStream
+  fullName: McStreamy.Tests.MockStream

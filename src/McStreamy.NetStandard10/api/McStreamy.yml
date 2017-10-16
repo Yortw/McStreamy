@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: McStreamy
+  commentId: N:McStreamy
+  id: McStreamy
+  children:
+  - McStreamy.ByteArrayExtensions
+  - McStreamy.NonClosingStreamAdapter
+  - McStreamy.StreamExtensions
+  - McStreamy.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: McStreamy
+  nameWithType: McStreamy
+  fullName: McStreamy
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: McStreamy.ByteArrayExtensions
+  commentId: T:McStreamy.ByteArrayExtensions
+  isExternal: false
+  name: ByteArrayExtensions
+  nameWithType: ByteArrayExtensions
+  fullName: McStreamy.ByteArrayExtensions
+- uid: McStreamy.NonClosingStreamAdapter
+  commentId: T:McStreamy.NonClosingStreamAdapter
+  isExternal: false
+  name: NonClosingStreamAdapter
+  nameWithType: NonClosingStreamAdapter
+  fullName: McStreamy.NonClosingStreamAdapter
+- uid: McStreamy.StreamExtensions
+  commentId: T:McStreamy.StreamExtensions
+  isExternal: false
+  name: StreamExtensions
+  nameWithType: StreamExtensions
+  fullName: McStreamy.StreamExtensions
+- uid: McStreamy.StringExtensions
+  commentId: T:McStreamy.StringExtensions
+  isExternal: false
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: McStreamy.StringExtensions

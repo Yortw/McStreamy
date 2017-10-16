@@ -1,0 +1,552 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: McStreamy
+  name: McStreamy
+  href: api/McStreamy.html
+  commentId: N:McStreamy
+  fullName: McStreamy
+  nameWithType: McStreamy
+- uid: McStreamy.ByteArrayExtensions
+  name: ByteArrayExtensions
+  href: api/McStreamy.ByteArrayExtensions.html
+  commentId: T:McStreamy.ByteArrayExtensions
+  fullName: McStreamy.ByteArrayExtensions
+  nameWithType: ByteArrayExtensions
+- uid: McStreamy.ByteArrayExtensions.ToStream(System.Byte[])
+  name: ToStream(Byte[])
+  href: api/McStreamy.ByteArrayExtensions.ToStream.html#McStreamy_ByteArrayExtensions_ToStream_System_Byte___
+  commentId: M:McStreamy.ByteArrayExtensions.ToStream(System.Byte[])
+  name.vb: ToStream(Byte())
+  fullName: McStreamy.ByteArrayExtensions.ToStream(System.Byte[])
+  fullName.vb: McStreamy.ByteArrayExtensions.ToStream(System.Byte())
+  nameWithType: ByteArrayExtensions.ToStream(Byte[])
+  nameWithType.vb: ByteArrayExtensions.ToStream(Byte())
+- uid: McStreamy.ByteArrayExtensions.ToStream*
+  name: ToStream
+  href: api/McStreamy.ByteArrayExtensions.ToStream.html
+  commentId: Overload:McStreamy.ByteArrayExtensions.ToStream
+  fullName: McStreamy.ByteArrayExtensions.ToStream
+  nameWithType: ByteArrayExtensions.ToStream
+- uid: McStreamy.NonClosingStreamAdapter
+  name: NonClosingStreamAdapter
+  href: api/McStreamy.NonClosingStreamAdapter.html
+  commentId: T:McStreamy.NonClosingStreamAdapter
+  fullName: McStreamy.NonClosingStreamAdapter
+  nameWithType: NonClosingStreamAdapter
+- uid: McStreamy.NonClosingStreamAdapter.#ctor(System.IO.Stream)
+  name: NonClosingStreamAdapter(Stream)
+  href: api/McStreamy.NonClosingStreamAdapter.-ctor.html#McStreamy_NonClosingStreamAdapter__ctor_System_IO_Stream_
+  commentId: M:McStreamy.NonClosingStreamAdapter.#ctor(System.IO.Stream)
+  fullName: McStreamy.NonClosingStreamAdapter.NonClosingStreamAdapter(System.IO.Stream)
+  nameWithType: NonClosingStreamAdapter.NonClosingStreamAdapter(Stream)
+- uid: McStreamy.NonClosingStreamAdapter.#ctor*
+  name: NonClosingStreamAdapter
+  href: api/McStreamy.NonClosingStreamAdapter.-ctor.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.#ctor
+  fullName: McStreamy.NonClosingStreamAdapter.NonClosingStreamAdapter
+  nameWithType: NonClosingStreamAdapter.NonClosingStreamAdapter
+- uid: McStreamy.NonClosingStreamAdapter.CanRead
+  name: CanRead
+  href: api/McStreamy.NonClosingStreamAdapter.CanRead.html#McStreamy_NonClosingStreamAdapter_CanRead
+  commentId: P:McStreamy.NonClosingStreamAdapter.CanRead
+  fullName: McStreamy.NonClosingStreamAdapter.CanRead
+  nameWithType: NonClosingStreamAdapter.CanRead
+- uid: McStreamy.NonClosingStreamAdapter.CanRead*
+  name: CanRead
+  href: api/McStreamy.NonClosingStreamAdapter.CanRead.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.CanRead
+  fullName: McStreamy.NonClosingStreamAdapter.CanRead
+  nameWithType: NonClosingStreamAdapter.CanRead
+- uid: McStreamy.NonClosingStreamAdapter.CanSeek
+  name: CanSeek
+  href: api/McStreamy.NonClosingStreamAdapter.CanSeek.html#McStreamy_NonClosingStreamAdapter_CanSeek
+  commentId: P:McStreamy.NonClosingStreamAdapter.CanSeek
+  fullName: McStreamy.NonClosingStreamAdapter.CanSeek
+  nameWithType: NonClosingStreamAdapter.CanSeek
+- uid: McStreamy.NonClosingStreamAdapter.CanSeek*
+  name: CanSeek
+  href: api/McStreamy.NonClosingStreamAdapter.CanSeek.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.CanSeek
+  fullName: McStreamy.NonClosingStreamAdapter.CanSeek
+  nameWithType: NonClosingStreamAdapter.CanSeek
+- uid: McStreamy.NonClosingStreamAdapter.CanTimeout
+  name: CanTimeout
+  href: api/McStreamy.NonClosingStreamAdapter.CanTimeout.html#McStreamy_NonClosingStreamAdapter_CanTimeout
+  commentId: P:McStreamy.NonClosingStreamAdapter.CanTimeout
+  fullName: McStreamy.NonClosingStreamAdapter.CanTimeout
+  nameWithType: NonClosingStreamAdapter.CanTimeout
+- uid: McStreamy.NonClosingStreamAdapter.CanTimeout*
+  name: CanTimeout
+  href: api/McStreamy.NonClosingStreamAdapter.CanTimeout.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.CanTimeout
+  fullName: McStreamy.NonClosingStreamAdapter.CanTimeout
+  nameWithType: NonClosingStreamAdapter.CanTimeout
+- uid: McStreamy.NonClosingStreamAdapter.CanWrite
+  name: CanWrite
+  href: api/McStreamy.NonClosingStreamAdapter.CanWrite.html#McStreamy_NonClosingStreamAdapter_CanWrite
+  commentId: P:McStreamy.NonClosingStreamAdapter.CanWrite
+  fullName: McStreamy.NonClosingStreamAdapter.CanWrite
+  nameWithType: NonClosingStreamAdapter.CanWrite
+- uid: McStreamy.NonClosingStreamAdapter.CanWrite*
+  name: CanWrite
+  href: api/McStreamy.NonClosingStreamAdapter.CanWrite.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.CanWrite
+  fullName: McStreamy.NonClosingStreamAdapter.CanWrite
+  nameWithType: NonClosingStreamAdapter.CanWrite
+- uid: McStreamy.NonClosingStreamAdapter.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/McStreamy.NonClosingStreamAdapter.Dispose.html#McStreamy_NonClosingStreamAdapter_Dispose_System_Boolean_
+  commentId: M:McStreamy.NonClosingStreamAdapter.Dispose(System.Boolean)
+  fullName: McStreamy.NonClosingStreamAdapter.Dispose(System.Boolean)
+  nameWithType: NonClosingStreamAdapter.Dispose(Boolean)
+- uid: McStreamy.NonClosingStreamAdapter.Dispose*
+  name: Dispose
+  href: api/McStreamy.NonClosingStreamAdapter.Dispose.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.Dispose
+  fullName: McStreamy.NonClosingStreamAdapter.Dispose
+  nameWithType: NonClosingStreamAdapter.Dispose
+- uid: McStreamy.NonClosingStreamAdapter.Flush
+  name: Flush()
+  href: api/McStreamy.NonClosingStreamAdapter.Flush.html#McStreamy_NonClosingStreamAdapter_Flush
+  commentId: M:McStreamy.NonClosingStreamAdapter.Flush
+  fullName: McStreamy.NonClosingStreamAdapter.Flush()
+  nameWithType: NonClosingStreamAdapter.Flush()
+- uid: McStreamy.NonClosingStreamAdapter.Flush*
+  name: Flush
+  href: api/McStreamy.NonClosingStreamAdapter.Flush.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.Flush
+  fullName: McStreamy.NonClosingStreamAdapter.Flush
+  nameWithType: NonClosingStreamAdapter.Flush
+- uid: McStreamy.NonClosingStreamAdapter.Length
+  name: Length
+  href: api/McStreamy.NonClosingStreamAdapter.Length.html#McStreamy_NonClosingStreamAdapter_Length
+  commentId: P:McStreamy.NonClosingStreamAdapter.Length
+  fullName: McStreamy.NonClosingStreamAdapter.Length
+  nameWithType: NonClosingStreamAdapter.Length
+- uid: McStreamy.NonClosingStreamAdapter.Length*
+  name: Length
+  href: api/McStreamy.NonClosingStreamAdapter.Length.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.Length
+  fullName: McStreamy.NonClosingStreamAdapter.Length
+  nameWithType: NonClosingStreamAdapter.Length
+- uid: McStreamy.NonClosingStreamAdapter.Position
+  name: Position
+  href: api/McStreamy.NonClosingStreamAdapter.Position.html#McStreamy_NonClosingStreamAdapter_Position
+  commentId: P:McStreamy.NonClosingStreamAdapter.Position
+  fullName: McStreamy.NonClosingStreamAdapter.Position
+  nameWithType: NonClosingStreamAdapter.Position
+- uid: McStreamy.NonClosingStreamAdapter.Position*
+  name: Position
+  href: api/McStreamy.NonClosingStreamAdapter.Position.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.Position
+  fullName: McStreamy.NonClosingStreamAdapter.Position
+  nameWithType: NonClosingStreamAdapter.Position
+- uid: McStreamy.NonClosingStreamAdapter.Read(System.Byte[],System.Int32,System.Int32)
+  name: Read(Byte[], Int32, Int32)
+  href: api/McStreamy.NonClosingStreamAdapter.Read.html#McStreamy_NonClosingStreamAdapter_Read_System_Byte___System_Int32_System_Int32_
+  commentId: M:McStreamy.NonClosingStreamAdapter.Read(System.Byte[],System.Int32,System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  fullName: McStreamy.NonClosingStreamAdapter.Read(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: McStreamy.NonClosingStreamAdapter.Read(System.Byte(), System.Int32, System.Int32)
+  nameWithType: NonClosingStreamAdapter.Read(Byte[], Int32, Int32)
+  nameWithType.vb: NonClosingStreamAdapter.Read(Byte(), Int32, Int32)
+- uid: McStreamy.NonClosingStreamAdapter.Read*
+  name: Read
+  href: api/McStreamy.NonClosingStreamAdapter.Read.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.Read
+  fullName: McStreamy.NonClosingStreamAdapter.Read
+  nameWithType: NonClosingStreamAdapter.Read
+- uid: McStreamy.NonClosingStreamAdapter.ReadByte
+  name: ReadByte()
+  href: api/McStreamy.NonClosingStreamAdapter.ReadByte.html#McStreamy_NonClosingStreamAdapter_ReadByte
+  commentId: M:McStreamy.NonClosingStreamAdapter.ReadByte
+  fullName: McStreamy.NonClosingStreamAdapter.ReadByte()
+  nameWithType: NonClosingStreamAdapter.ReadByte()
+- uid: McStreamy.NonClosingStreamAdapter.ReadByte*
+  name: ReadByte
+  href: api/McStreamy.NonClosingStreamAdapter.ReadByte.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.ReadByte
+  fullName: McStreamy.NonClosingStreamAdapter.ReadByte
+  nameWithType: NonClosingStreamAdapter.ReadByte
+- uid: McStreamy.NonClosingStreamAdapter.ReadTimeout
+  name: ReadTimeout
+  href: api/McStreamy.NonClosingStreamAdapter.ReadTimeout.html#McStreamy_NonClosingStreamAdapter_ReadTimeout
+  commentId: P:McStreamy.NonClosingStreamAdapter.ReadTimeout
+  fullName: McStreamy.NonClosingStreamAdapter.ReadTimeout
+  nameWithType: NonClosingStreamAdapter.ReadTimeout
+- uid: McStreamy.NonClosingStreamAdapter.ReadTimeout*
+  name: ReadTimeout
+  href: api/McStreamy.NonClosingStreamAdapter.ReadTimeout.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.ReadTimeout
+  fullName: McStreamy.NonClosingStreamAdapter.ReadTimeout
+  nameWithType: NonClosingStreamAdapter.ReadTimeout
+- uid: McStreamy.NonClosingStreamAdapter.Seek(System.Int64,SeekOrigin)
+  name: Seek(Int64, SeekOrigin)
+  href: api/McStreamy.NonClosingStreamAdapter.Seek.html#McStreamy_NonClosingStreamAdapter_Seek_System_Int64_SeekOrigin_
+  commentId: M:McStreamy.NonClosingStreamAdapter.Seek(System.Int64,SeekOrigin)
+  fullName: McStreamy.NonClosingStreamAdapter.Seek(System.Int64, SeekOrigin)
+  nameWithType: NonClosingStreamAdapter.Seek(Int64, SeekOrigin)
+- uid: McStreamy.NonClosingStreamAdapter.Seek*
+  name: Seek
+  href: api/McStreamy.NonClosingStreamAdapter.Seek.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.Seek
+  fullName: McStreamy.NonClosingStreamAdapter.Seek
+  nameWithType: NonClosingStreamAdapter.Seek
+- uid: McStreamy.NonClosingStreamAdapter.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/McStreamy.NonClosingStreamAdapter.SetLength.html#McStreamy_NonClosingStreamAdapter_SetLength_System_Int64_
+  commentId: M:McStreamy.NonClosingStreamAdapter.SetLength(System.Int64)
+  fullName: McStreamy.NonClosingStreamAdapter.SetLength(System.Int64)
+  nameWithType: NonClosingStreamAdapter.SetLength(Int64)
+- uid: McStreamy.NonClosingStreamAdapter.SetLength*
+  name: SetLength
+  href: api/McStreamy.NonClosingStreamAdapter.SetLength.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.SetLength
+  fullName: McStreamy.NonClosingStreamAdapter.SetLength
+  nameWithType: NonClosingStreamAdapter.SetLength
+- uid: McStreamy.NonClosingStreamAdapter.ToString
+  name: ToString()
+  href: api/McStreamy.NonClosingStreamAdapter.ToString.html#McStreamy_NonClosingStreamAdapter_ToString
+  commentId: M:McStreamy.NonClosingStreamAdapter.ToString
+  fullName: McStreamy.NonClosingStreamAdapter.ToString()
+  nameWithType: NonClosingStreamAdapter.ToString()
+- uid: McStreamy.NonClosingStreamAdapter.ToString*
+  name: ToString
+  href: api/McStreamy.NonClosingStreamAdapter.ToString.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.ToString
+  fullName: McStreamy.NonClosingStreamAdapter.ToString
+  nameWithType: NonClosingStreamAdapter.ToString
+- uid: McStreamy.NonClosingStreamAdapter.Write(System.Byte[],System.Int32,System.Int32)
+  name: Write(Byte[], Int32, Int32)
+  href: api/McStreamy.NonClosingStreamAdapter.Write.html#McStreamy_NonClosingStreamAdapter_Write_System_Byte___System_Int32_System_Int32_
+  commentId: M:McStreamy.NonClosingStreamAdapter.Write(System.Byte[],System.Int32,System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: McStreamy.NonClosingStreamAdapter.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: McStreamy.NonClosingStreamAdapter.Write(System.Byte(), System.Int32, System.Int32)
+  nameWithType: NonClosingStreamAdapter.Write(Byte[], Int32, Int32)
+  nameWithType.vb: NonClosingStreamAdapter.Write(Byte(), Int32, Int32)
+- uid: McStreamy.NonClosingStreamAdapter.Write*
+  name: Write
+  href: api/McStreamy.NonClosingStreamAdapter.Write.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.Write
+  fullName: McStreamy.NonClosingStreamAdapter.Write
+  nameWithType: NonClosingStreamAdapter.Write
+- uid: McStreamy.NonClosingStreamAdapter.WriteByte(System.Byte)
+  name: WriteByte(Byte)
+  href: api/McStreamy.NonClosingStreamAdapter.WriteByte.html#McStreamy_NonClosingStreamAdapter_WriteByte_System_Byte_
+  commentId: M:McStreamy.NonClosingStreamAdapter.WriteByte(System.Byte)
+  fullName: McStreamy.NonClosingStreamAdapter.WriteByte(System.Byte)
+  nameWithType: NonClosingStreamAdapter.WriteByte(Byte)
+- uid: McStreamy.NonClosingStreamAdapter.WriteByte*
+  name: WriteByte
+  href: api/McStreamy.NonClosingStreamAdapter.WriteByte.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.WriteByte
+  fullName: McStreamy.NonClosingStreamAdapter.WriteByte
+  nameWithType: NonClosingStreamAdapter.WriteByte
+- uid: McStreamy.NonClosingStreamAdapter.WriteTimeout
+  name: WriteTimeout
+  href: api/McStreamy.NonClosingStreamAdapter.WriteTimeout.html#McStreamy_NonClosingStreamAdapter_WriteTimeout
+  commentId: P:McStreamy.NonClosingStreamAdapter.WriteTimeout
+  fullName: McStreamy.NonClosingStreamAdapter.WriteTimeout
+  nameWithType: NonClosingStreamAdapter.WriteTimeout
+- uid: McStreamy.NonClosingStreamAdapter.WriteTimeout*
+  name: WriteTimeout
+  href: api/McStreamy.NonClosingStreamAdapter.WriteTimeout.html
+  commentId: Overload:McStreamy.NonClosingStreamAdapter.WriteTimeout
+  fullName: McStreamy.NonClosingStreamAdapter.WriteTimeout
+  nameWithType: NonClosingStreamAdapter.WriteTimeout
+- uid: McStreamy.StreamExtensions
+  name: StreamExtensions
+  href: api/McStreamy.StreamExtensions.html
+  commentId: T:McStreamy.StreamExtensions
+  fullName: McStreamy.StreamExtensions
+  nameWithType: StreamExtensions
+- uid: McStreamy.StreamExtensions.ReadAllBytes(System.IO.Stream)
+  name: ReadAllBytes(Stream)
+  href: api/McStreamy.StreamExtensions.ReadAllBytes.html#McStreamy_StreamExtensions_ReadAllBytes_System_IO_Stream_
+  commentId: M:McStreamy.StreamExtensions.ReadAllBytes(System.IO.Stream)
+  fullName: McStreamy.StreamExtensions.ReadAllBytes(System.IO.Stream)
+  nameWithType: StreamExtensions.ReadAllBytes(Stream)
+- uid: McStreamy.StreamExtensions.ReadAllBytes*
+  name: ReadAllBytes
+  href: api/McStreamy.StreamExtensions.ReadAllBytes.html
+  commentId: Overload:McStreamy.StreamExtensions.ReadAllBytes
+  fullName: McStreamy.StreamExtensions.ReadAllBytes
+  nameWithType: StreamExtensions.ReadAllBytes
+- uid: McStreamy.StreamExtensions.ReadAllBytesAsync(System.IO.Stream)
+  name: ReadAllBytesAsync(Stream)
+  href: api/McStreamy.StreamExtensions.ReadAllBytesAsync.html#McStreamy_StreamExtensions_ReadAllBytesAsync_System_IO_Stream_
+  commentId: M:McStreamy.StreamExtensions.ReadAllBytesAsync(System.IO.Stream)
+  fullName: McStreamy.StreamExtensions.ReadAllBytesAsync(System.IO.Stream)
+  nameWithType: StreamExtensions.ReadAllBytesAsync(Stream)
+- uid: McStreamy.StreamExtensions.ReadAllBytesAsync*
+  name: ReadAllBytesAsync
+  href: api/McStreamy.StreamExtensions.ReadAllBytesAsync.html
+  commentId: Overload:McStreamy.StreamExtensions.ReadAllBytesAsync
+  fullName: McStreamy.StreamExtensions.ReadAllBytesAsync
+  nameWithType: StreamExtensions.ReadAllBytesAsync
+- uid: McStreamy.StreamExtensions.ReadAsString(Stream,Encoding)
+  name: ReadAsString(Stream, Encoding)
+  href: api/McStreamy.StreamExtensions.ReadAsString.html#McStreamy_StreamExtensions_ReadAsString_Stream_Encoding_
+  commentId: M:McStreamy.StreamExtensions.ReadAsString(Stream,Encoding)
+  fullName: McStreamy.StreamExtensions.ReadAsString(Stream, Encoding)
+  nameWithType: StreamExtensions.ReadAsString(Stream, Encoding)
+- uid: McStreamy.StreamExtensions.ReadAsString(System.IO.Stream)
+  name: ReadAsString(Stream)
+  href: api/McStreamy.StreamExtensions.ReadAsString.html#McStreamy_StreamExtensions_ReadAsString_System_IO_Stream_
+  commentId: M:McStreamy.StreamExtensions.ReadAsString(System.IO.Stream)
+  fullName: McStreamy.StreamExtensions.ReadAsString(System.IO.Stream)
+  nameWithType: StreamExtensions.ReadAsString(Stream)
+- uid: McStreamy.StreamExtensions.ReadAsString*
+  name: ReadAsString
+  href: api/McStreamy.StreamExtensions.ReadAsString.html
+  commentId: Overload:McStreamy.StreamExtensions.ReadAsString
+  fullName: McStreamy.StreamExtensions.ReadAsString
+  nameWithType: StreamExtensions.ReadAsString
+- uid: McStreamy.StreamExtensions.ReadAsStringAsync(Stream,Encoding)
+  name: ReadAsStringAsync(Stream, Encoding)
+  href: api/McStreamy.StreamExtensions.ReadAsStringAsync.html#McStreamy_StreamExtensions_ReadAsStringAsync_Stream_Encoding_
+  commentId: M:McStreamy.StreamExtensions.ReadAsStringAsync(Stream,Encoding)
+  fullName: McStreamy.StreamExtensions.ReadAsStringAsync(Stream, Encoding)
+  nameWithType: StreamExtensions.ReadAsStringAsync(Stream, Encoding)
+- uid: McStreamy.StreamExtensions.ReadAsStringAsync(System.IO.Stream)
+  name: ReadAsStringAsync(Stream)
+  href: api/McStreamy.StreamExtensions.ReadAsStringAsync.html#McStreamy_StreamExtensions_ReadAsStringAsync_System_IO_Stream_
+  commentId: M:McStreamy.StreamExtensions.ReadAsStringAsync(System.IO.Stream)
+  fullName: McStreamy.StreamExtensions.ReadAsStringAsync(System.IO.Stream)
+  nameWithType: StreamExtensions.ReadAsStringAsync(Stream)
+- uid: McStreamy.StreamExtensions.ReadAsStringAsync*
+  name: ReadAsStringAsync
+  href: api/McStreamy.StreamExtensions.ReadAsStringAsync.html
+  commentId: Overload:McStreamy.StreamExtensions.ReadAsStringAsync
+  fullName: McStreamy.StreamExtensions.ReadAsStringAsync
+  nameWithType: StreamExtensions.ReadAsStringAsync
+- uid: McStreamy.StreamExtensions.WriteAllBytes(System.IO.Stream,System.Byte[])
+  name: WriteAllBytes(Stream, Byte[])
+  href: api/McStreamy.StreamExtensions.WriteAllBytes.html#McStreamy_StreamExtensions_WriteAllBytes_System_IO_Stream_System_Byte___
+  commentId: M:McStreamy.StreamExtensions.WriteAllBytes(System.IO.Stream,System.Byte[])
+  name.vb: WriteAllBytes(Stream, Byte())
+  fullName: McStreamy.StreamExtensions.WriteAllBytes(System.IO.Stream, System.Byte[])
+  fullName.vb: McStreamy.StreamExtensions.WriteAllBytes(System.IO.Stream, System.Byte())
+  nameWithType: StreamExtensions.WriteAllBytes(Stream, Byte[])
+  nameWithType.vb: StreamExtensions.WriteAllBytes(Stream, Byte())
+- uid: McStreamy.StreamExtensions.WriteAllBytes*
+  name: WriteAllBytes
+  href: api/McStreamy.StreamExtensions.WriteAllBytes.html
+  commentId: Overload:McStreamy.StreamExtensions.WriteAllBytes
+  fullName: McStreamy.StreamExtensions.WriteAllBytes
+  nameWithType: StreamExtensions.WriteAllBytes
+- uid: McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream,System.Byte[])
+  name: WriteAllBytesAsync(Stream, Byte[])
+  href: api/McStreamy.StreamExtensions.WriteAllBytesAsync.html#McStreamy_StreamExtensions_WriteAllBytesAsync_System_IO_Stream_System_Byte___
+  commentId: M:McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream,System.Byte[])
+  name.vb: WriteAllBytesAsync(Stream, Byte())
+  fullName: McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream, System.Byte[])
+  fullName.vb: McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream, System.Byte())
+  nameWithType: StreamExtensions.WriteAllBytesAsync(Stream, Byte[])
+  nameWithType.vb: StreamExtensions.WriteAllBytesAsync(Stream, Byte())
+- uid: McStreamy.StreamExtensions.WriteAllBytesAsync*
+  name: WriteAllBytesAsync
+  href: api/McStreamy.StreamExtensions.WriteAllBytesAsync.html
+  commentId: Overload:McStreamy.StreamExtensions.WriteAllBytesAsync
+  fullName: McStreamy.StreamExtensions.WriteAllBytesAsync
+  nameWithType: StreamExtensions.WriteAllBytesAsync
+- uid: McStreamy.StringExtensions
+  name: StringExtensions
+  href: api/McStreamy.StringExtensions.html
+  commentId: T:McStreamy.StringExtensions
+  fullName: McStreamy.StringExtensions
+  nameWithType: StringExtensions
+- uid: McStreamy.StringExtensions.ToStream(System.String)
+  name: ToStream(String)
+  href: api/McStreamy.StringExtensions.ToStream.html#McStreamy_StringExtensions_ToStream_System_String_
+  commentId: M:McStreamy.StringExtensions.ToStream(System.String)
+  fullName: McStreamy.StringExtensions.ToStream(System.String)
+  nameWithType: StringExtensions.ToStream(String)
+- uid: McStreamy.StringExtensions.ToStream(System.String,System.Text.Encoding)
+  name: ToStream(String, Encoding)
+  href: api/McStreamy.StringExtensions.ToStream.html#McStreamy_StringExtensions_ToStream_System_String_System_Text_Encoding_
+  commentId: M:McStreamy.StringExtensions.ToStream(System.String,System.Text.Encoding)
+  fullName: McStreamy.StringExtensions.ToStream(System.String, System.Text.Encoding)
+  nameWithType: StringExtensions.ToStream(String, Encoding)
+- uid: McStreamy.StringExtensions.ToStream*
+  name: ToStream
+  href: api/McStreamy.StringExtensions.ToStream.html
+  commentId: Overload:McStreamy.StringExtensions.ToStream
+  fullName: McStreamy.StringExtensions.ToStream
+  nameWithType: StringExtensions.ToStream
+- uid: McStreamy.Tests
+  name: McStreamy.Tests
+  href: api/McStreamy.Tests.html
+  commentId: N:McStreamy.Tests
+  fullName: McStreamy.Tests
+  nameWithType: McStreamy.Tests
+- uid: McStreamy.Tests.MockStream
+  name: MockStream
+  href: api/McStreamy.Tests.MockStream.html
+  commentId: T:McStreamy.Tests.MockStream
+  fullName: McStreamy.Tests.MockStream
+  nameWithType: MockStream
+- uid: McStreamy.Tests.MockStream.CanRead
+  name: CanRead
+  href: api/McStreamy.Tests.MockStream.CanRead.html#McStreamy_Tests_MockStream_CanRead
+  commentId: P:McStreamy.Tests.MockStream.CanRead
+  fullName: McStreamy.Tests.MockStream.CanRead
+  nameWithType: MockStream.CanRead
+- uid: McStreamy.Tests.MockStream.CanRead*
+  name: CanRead
+  href: api/McStreamy.Tests.MockStream.CanRead.html
+  commentId: Overload:McStreamy.Tests.MockStream.CanRead
+  fullName: McStreamy.Tests.MockStream.CanRead
+  nameWithType: MockStream.CanRead
+- uid: McStreamy.Tests.MockStream.CanSeek
+  name: CanSeek
+  href: api/McStreamy.Tests.MockStream.CanSeek.html#McStreamy_Tests_MockStream_CanSeek
+  commentId: P:McStreamy.Tests.MockStream.CanSeek
+  fullName: McStreamy.Tests.MockStream.CanSeek
+  nameWithType: MockStream.CanSeek
+- uid: McStreamy.Tests.MockStream.CanSeek*
+  name: CanSeek
+  href: api/McStreamy.Tests.MockStream.CanSeek.html
+  commentId: Overload:McStreamy.Tests.MockStream.CanSeek
+  fullName: McStreamy.Tests.MockStream.CanSeek
+  nameWithType: MockStream.CanSeek
+- uid: McStreamy.Tests.MockStream.CanWrite
+  name: CanWrite
+  href: api/McStreamy.Tests.MockStream.CanWrite.html#McStreamy_Tests_MockStream_CanWrite
+  commentId: P:McStreamy.Tests.MockStream.CanWrite
+  fullName: McStreamy.Tests.MockStream.CanWrite
+  nameWithType: MockStream.CanWrite
+- uid: McStreamy.Tests.MockStream.CanWrite*
+  name: CanWrite
+  href: api/McStreamy.Tests.MockStream.CanWrite.html
+  commentId: Overload:McStreamy.Tests.MockStream.CanWrite
+  fullName: McStreamy.Tests.MockStream.CanWrite
+  nameWithType: MockStream.CanWrite
+- uid: McStreamy.Tests.MockStream.Flush
+  name: Flush()
+  href: api/McStreamy.Tests.MockStream.Flush.html#McStreamy_Tests_MockStream_Flush
+  commentId: M:McStreamy.Tests.MockStream.Flush
+  fullName: McStreamy.Tests.MockStream.Flush()
+  nameWithType: MockStream.Flush()
+- uid: McStreamy.Tests.MockStream.Flush*
+  name: Flush
+  href: api/McStreamy.Tests.MockStream.Flush.html
+  commentId: Overload:McStreamy.Tests.MockStream.Flush
+  fullName: McStreamy.Tests.MockStream.Flush
+  nameWithType: MockStream.Flush
+- uid: McStreamy.Tests.MockStream.FlushCalled
+  name: FlushCalled
+  href: api/McStreamy.Tests.MockStream.FlushCalled.html#McStreamy_Tests_MockStream_FlushCalled
+  commentId: P:McStreamy.Tests.MockStream.FlushCalled
+  fullName: McStreamy.Tests.MockStream.FlushCalled
+  nameWithType: MockStream.FlushCalled
+- uid: McStreamy.Tests.MockStream.FlushCalled*
+  name: FlushCalled
+  href: api/McStreamy.Tests.MockStream.FlushCalled.html
+  commentId: Overload:McStreamy.Tests.MockStream.FlushCalled
+  fullName: McStreamy.Tests.MockStream.FlushCalled
+  nameWithType: MockStream.FlushCalled
+- uid: McStreamy.Tests.MockStream.Length
+  name: Length
+  href: api/McStreamy.Tests.MockStream.Length.html#McStreamy_Tests_MockStream_Length
+  commentId: P:McStreamy.Tests.MockStream.Length
+  fullName: McStreamy.Tests.MockStream.Length
+  nameWithType: MockStream.Length
+- uid: McStreamy.Tests.MockStream.Length*
+  name: Length
+  href: api/McStreamy.Tests.MockStream.Length.html
+  commentId: Overload:McStreamy.Tests.MockStream.Length
+  fullName: McStreamy.Tests.MockStream.Length
+  nameWithType: MockStream.Length
+- uid: McStreamy.Tests.MockStream.Position
+  name: Position
+  href: api/McStreamy.Tests.MockStream.Position.html#McStreamy_Tests_MockStream_Position
+  commentId: P:McStreamy.Tests.MockStream.Position
+  fullName: McStreamy.Tests.MockStream.Position
+  nameWithType: MockStream.Position
+- uid: McStreamy.Tests.MockStream.Position*
+  name: Position
+  href: api/McStreamy.Tests.MockStream.Position.html
+  commentId: Overload:McStreamy.Tests.MockStream.Position
+  fullName: McStreamy.Tests.MockStream.Position
+  nameWithType: MockStream.Position
+- uid: McStreamy.Tests.MockStream.Read(System.Byte[],System.Int32,System.Int32)
+  name: Read(Byte[], Int32, Int32)
+  href: api/McStreamy.Tests.MockStream.Read.html#McStreamy_Tests_MockStream_Read_System_Byte___System_Int32_System_Int32_
+  commentId: M:McStreamy.Tests.MockStream.Read(System.Byte[],System.Int32,System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  fullName: McStreamy.Tests.MockStream.Read(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: McStreamy.Tests.MockStream.Read(System.Byte(), System.Int32, System.Int32)
+  nameWithType: MockStream.Read(Byte[], Int32, Int32)
+  nameWithType.vb: MockStream.Read(Byte(), Int32, Int32)
+- uid: McStreamy.Tests.MockStream.Read*
+  name: Read
+  href: api/McStreamy.Tests.MockStream.Read.html
+  commentId: Overload:McStreamy.Tests.MockStream.Read
+  fullName: McStreamy.Tests.MockStream.Read
+  nameWithType: MockStream.Read
+- uid: McStreamy.Tests.MockStream.ReadTimeout
+  name: ReadTimeout
+  href: api/McStreamy.Tests.MockStream.ReadTimeout.html#McStreamy_Tests_MockStream_ReadTimeout
+  commentId: P:McStreamy.Tests.MockStream.ReadTimeout
+  fullName: McStreamy.Tests.MockStream.ReadTimeout
+  nameWithType: MockStream.ReadTimeout
+- uid: McStreamy.Tests.MockStream.ReadTimeout*
+  name: ReadTimeout
+  href: api/McStreamy.Tests.MockStream.ReadTimeout.html
+  commentId: Overload:McStreamy.Tests.MockStream.ReadTimeout
+  fullName: McStreamy.Tests.MockStream.ReadTimeout
+  nameWithType: MockStream.ReadTimeout
+- uid: McStreamy.Tests.MockStream.Seek(System.Int64,SeekOrigin)
+  name: Seek(Int64, SeekOrigin)
+  href: api/McStreamy.Tests.MockStream.Seek.html#McStreamy_Tests_MockStream_Seek_System_Int64_SeekOrigin_
+  commentId: M:McStreamy.Tests.MockStream.Seek(System.Int64,SeekOrigin)
+  fullName: McStreamy.Tests.MockStream.Seek(System.Int64, SeekOrigin)
+  nameWithType: MockStream.Seek(Int64, SeekOrigin)
+- uid: McStreamy.Tests.MockStream.Seek*
+  name: Seek
+  href: api/McStreamy.Tests.MockStream.Seek.html
+  commentId: Overload:McStreamy.Tests.MockStream.Seek
+  fullName: McStreamy.Tests.MockStream.Seek
+  nameWithType: MockStream.Seek
+- uid: McStreamy.Tests.MockStream.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/McStreamy.Tests.MockStream.SetLength.html#McStreamy_Tests_MockStream_SetLength_System_Int64_
+  commentId: M:McStreamy.Tests.MockStream.SetLength(System.Int64)
+  fullName: McStreamy.Tests.MockStream.SetLength(System.Int64)
+  nameWithType: MockStream.SetLength(Int64)
+- uid: McStreamy.Tests.MockStream.SetLength*
+  name: SetLength
+  href: api/McStreamy.Tests.MockStream.SetLength.html
+  commentId: Overload:McStreamy.Tests.MockStream.SetLength
+  fullName: McStreamy.Tests.MockStream.SetLength
+  nameWithType: MockStream.SetLength
+- uid: McStreamy.Tests.MockStream.Write(System.Byte[],System.Int32,System.Int32)
+  name: Write(Byte[], Int32, Int32)
+  href: api/McStreamy.Tests.MockStream.Write.html#McStreamy_Tests_MockStream_Write_System_Byte___System_Int32_System_Int32_
+  commentId: M:McStreamy.Tests.MockStream.Write(System.Byte[],System.Int32,System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: McStreamy.Tests.MockStream.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: McStreamy.Tests.MockStream.Write(System.Byte(), System.Int32, System.Int32)
+  nameWithType: MockStream.Write(Byte[], Int32, Int32)
+  nameWithType.vb: MockStream.Write(Byte(), Int32, Int32)
+- uid: McStreamy.Tests.MockStream.Write*
+  name: Write
+  href: api/McStreamy.Tests.MockStream.Write.html
+  commentId: Overload:McStreamy.Tests.MockStream.Write
+  fullName: McStreamy.Tests.MockStream.Write
+  nameWithType: MockStream.Write
+- uid: McStreamy.Tests.MockStream.WriteTimeout
+  name: WriteTimeout
+  href: api/McStreamy.Tests.MockStream.WriteTimeout.html#McStreamy_Tests_MockStream_WriteTimeout
+  commentId: P:McStreamy.Tests.MockStream.WriteTimeout
+  fullName: McStreamy.Tests.MockStream.WriteTimeout
+  nameWithType: MockStream.WriteTimeout
+- uid: McStreamy.Tests.MockStream.WriteTimeout*
+  name: WriteTimeout
+  href: api/McStreamy.Tests.MockStream.WriteTimeout.html
+  commentId: Overload:McStreamy.Tests.MockStream.WriteTimeout
+  fullName: McStreamy.Tests.MockStream.WriteTimeout
+  nameWithType: MockStream.WriteTimeout

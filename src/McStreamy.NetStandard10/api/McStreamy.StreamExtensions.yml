@@ -1,0 +1,963 @@
+### YamlMime:ManagedReference
+items:
+- uid: McStreamy.StreamExtensions
+  commentId: T:McStreamy.StreamExtensions
+  id: StreamExtensions
+  parent: McStreamy
+  children:
+  - McStreamy.StreamExtensions.ReadAllBytes(System.IO.Stream)
+  - McStreamy.StreamExtensions.ReadAllBytesAsync(System.IO.Stream)
+  - McStreamy.StreamExtensions.ReadAsString(Stream,Encoding)
+  - McStreamy.StreamExtensions.ReadAsString(System.IO.Stream)
+  - McStreamy.StreamExtensions.ReadAsStringAsync(Stream,Encoding)
+  - McStreamy.StreamExtensions.ReadAsStringAsync(System.IO.Stream)
+  - McStreamy.StreamExtensions.WriteAllBytes(System.IO.Stream,System.Byte[])
+  - McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream,System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: StreamExtensions
+  nameWithType: StreamExtensions
+  fullName: McStreamy.StreamExtensions
+  type: Class
+  source:
+    id: StreamExtensions
+    path: ''
+    startLine: 537
+  assemblies:
+  - cs.temp.dll
+  namespace: McStreamy
+  summary: "\nExtension methods for streams.\n"
+  example: []
+  syntax:
+    content: public static class StreamExtensions
+    content.vb: Public Module StreamExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: McStreamy.StreamExtensions.WriteAllBytes(System.IO.Stream,System.Byte[])
+  commentId: M:McStreamy.StreamExtensions.WriteAllBytes(System.IO.Stream,System.Byte[])
+  id: WriteAllBytes(System.IO.Stream,System.Byte[])
+  isExtensionMethod: true
+  parent: McStreamy.StreamExtensions
+  langs:
+  - csharp
+  - vb
+  name: WriteAllBytes(Stream, Byte[])
+  nameWithType: StreamExtensions.WriteAllBytes(Stream, Byte[])
+  fullName: McStreamy.StreamExtensions.WriteAllBytes(System.IO.Stream, System.Byte[])
+  type: Method
+  source:
+    id: WriteAllBytes
+    path: ''
+    startLine: 548
+  assemblies:
+  - cs.temp.dll
+  namespace: McStreamy
+  summary: "\nWrites all bytes in the specified byte array to the stream.\n"
+  example: []
+  syntax:
+    content: public static void WriteAllBytes(this Stream stream, byte[] data)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream.
+    - id: data
+      type: System.Byte[]
+      description: The bytes to be written.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub WriteAllBytes(stream As Stream, data As Byte())
+  overload: McStreamy.StreamExtensions.WriteAllBytes*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">data</code> or <code data-dev-comment-type="paramref" class="paramref">stream</code> is null.
+  nameWithType.vb: StreamExtensions.WriteAllBytes(Stream, Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: McStreamy.StreamExtensions.WriteAllBytes(System.IO.Stream, System.Byte())
+  name.vb: WriteAllBytes(Stream, Byte())
+- uid: McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream,System.Byte[])
+  commentId: M:McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream,System.Byte[])
+  id: WriteAllBytesAsync(System.IO.Stream,System.Byte[])
+  isExtensionMethod: true
+  parent: McStreamy.StreamExtensions
+  langs:
+  - csharp
+  - vb
+  name: WriteAllBytesAsync(Stream, Byte[])
+  nameWithType: StreamExtensions.WriteAllBytesAsync(Stream, Byte[])
+  fullName: McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream, System.Byte[])
+  type: Method
+  source:
+    id: WriteAllBytesAsync
+    path: ''
+    startLine: 564
+  assemblies:
+  - cs.temp.dll
+  namespace: McStreamy
+  summary: "\nWrites all bytes in the specified byte array to the stream.\n"
+  example: []
+  syntax:
+    content: public static Task WriteAllBytesAsync(this Stream stream, byte[] data)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream.
+    - id: data
+      type: System.Byte[]
+      description: The bytes to be written.
+    return:
+      type: Task
+      description: The <xref href="System.Threading.Tasks.Task" data-throw-if-not-resolved="false"></xref> instance that can be awaited.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WriteAllBytesAsync(stream As Stream, data As Byte()) As Task
+  overload: McStreamy.StreamExtensions.WriteAllBytesAsync*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">data</code> or <code data-dev-comment-type="paramref" class="paramref">stream</code> is null.
+  nameWithType.vb: StreamExtensions.WriteAllBytesAsync(Stream, Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: McStreamy.StreamExtensions.WriteAllBytesAsync(System.IO.Stream, System.Byte())
+  name.vb: WriteAllBytesAsync(Stream, Byte())
+- uid: McStreamy.StreamExtensions.ReadAllBytes(System.IO.Stream)
+  commentId: M:McStreamy.StreamExtensions.ReadAllBytes(System.IO.Stream)
+  id: ReadAllBytes(System.IO.Stream)
+  isExtensionMethod: true
+  parent: McStreamy.StreamExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReadAllBytes(Stream)
+  nameWithType: StreamExtensions.ReadAllBytes(Stream)
+  fullName: McStreamy.StreamExtensions.ReadAllBytes(System.IO.Stream)
+  type: Method
+  source:
+    id: ReadAllBytes
+    path: ''
+    startLine: 586
+  assemblies:
+  - cs.temp.dll
+  namespace: McStreamy
+  summary: "\nPerforms a &apos;naive&apos; read of the stream from it&apos;s current position to it&apos;s end and returns a byte array with the contents. \n"
+  remarks: "\n<p>This method should only be used on streams known to be small, as it reads all data in one go into a byte array in memory. Performing this on streams with large content, or where the stream length is unknown will cause problems.</p>\n"
+  example: []
+  syntax:
+    content: public static byte[] ReadAllBytes(this Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream.
+    return:
+      type: System.Byte[]
+      description: A byte array containing the stream contents.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadAllBytes(stream As Stream) As Byte()
+  overload: McStreamy.StreamExtensions.ReadAllBytes*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">stream</code> is null.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: McStreamy.StreamExtensions.ReadAllBytesAsync(System.IO.Stream)
+  commentId: M:McStreamy.StreamExtensions.ReadAllBytesAsync(System.IO.Stream)
+  id: ReadAllBytesAsync(System.IO.Stream)
+  isExtensionMethod: true
+  parent: McStreamy.StreamExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReadAllBytesAsync(Stream)
+  nameWithType: StreamExtensions.ReadAllBytesAsync(Stream)
+  fullName: McStreamy.StreamExtensions.ReadAllBytesAsync(System.IO.Stream)
+  type: Method
+  source:
+    id: ReadAllBytesAsync
+    path: ''
+    startLine: 606
+  assemblies:
+  - cs.temp.dll
+  namespace: McStreamy
+  summary: "\nPerforms a &apos;naive&apos; read of the stream from it&apos;s current position to it&apos;s end and returns a byte array with the contents. \n"
+  remarks: "\n<p>This method should only be used on streams known to be small, as it reads all data in one go into a byte array in memory. Performing this on streams with large content, or where the stream length is unknown will cause problems.</p>\n"
+  example: []
+  syntax:
+    content: public static Task<byte[]> ReadAllBytesAsync(this Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream.
+    return:
+      type: Task{System.Byte[]}
+      description: A <xref href="System.Threading.Tasks.Task" data-throw-if-not-resolved="false"></xref> whose result is a byte array containing the stream contents.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadAllBytesAsync(stream As Stream) As Task(Of Byte())
+  overload: McStreamy.StreamExtensions.ReadAllBytesAsync*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">stream</code> is null.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: McStreamy.StreamExtensions.ReadAsString(System.IO.Stream)
+  commentId: M:McStreamy.StreamExtensions.ReadAsString(System.IO.Stream)
+  id: ReadAsString(System.IO.Stream)
+  isExtensionMethod: true
+  parent: McStreamy.StreamExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReadAsString(Stream)
+  nameWithType: StreamExtensions.ReadAsString(Stream)
+  fullName: McStreamy.StreamExtensions.ReadAsString(System.IO.Stream)
+  type: Method
+  source:
+    id: ReadAsString
+    path: ''
+    startLine: 631
+  assemblies:
+  - cs.temp.dll
+  namespace: McStreamy
+  summary: "\nReads the contents of stream from it&apos;s current point to the end and returns the result as a string.\n"
+  remarks: "\n<p>This overload uses the <xref href=\"System.Text.UTF8Encoding\" data-throw-if-not-resolved=\"false\"></xref> to convert the stream contents into a string.</p>\n"
+  example: []
+  syntax:
+    content: public static string ReadAsString(this Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream to read from.
+    return:
+      type: System.String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> representation of the stream contents.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadAsString(stream As Stream) As String
+  overload: McStreamy.StreamExtensions.ReadAsString*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">stream</code> is null.
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Thrown if the stream length is greater than <xref href="System.Int32.MaxValue" data-throw-if-not-resolved="false"></xref>.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: McStreamy.StreamExtensions.ReadAsString(Stream,Encoding)
+  commentId: M:McStreamy.StreamExtensions.ReadAsString(Stream,Encoding)
+  id: ReadAsString(Stream,Encoding)
+  parent: McStreamy.StreamExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReadAsString(Stream, Encoding)
+  nameWithType: StreamExtensions.ReadAsString(Stream, Encoding)
+  fullName: McStreamy.StreamExtensions.ReadAsString(Stream, Encoding)
+  type: Method
+  source:
+    id: ReadAsString
+    path: ''
+    startLine: 644
+  assemblies:
+  - cs.temp.dll
+  namespace: McStreamy
+  summary: "\nReads the contents of stream from it&apos;s current point to the end and returns the result as a string.\n"
+  example: []
+  syntax:
+    content: public static string ReadAsString(Stream stream, Encoding encoding)
+    parameters:
+    - id: stream
+      type: Stream
+      description: The stream to read from.
+    - id: encoding
+      type: Encoding
+      description: The text encoding to use when decoding the stream into a string.
+    return:
+      type: System.String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> representation of the stream contents.
+    content.vb: Public Shared Function ReadAsString(stream As Stream, encoding As Encoding) As String
+  overload: McStreamy.StreamExtensions.ReadAsString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: McStreamy.StreamExtensions.ReadAsStringAsync(System.IO.Stream)
+  commentId: M:McStreamy.StreamExtensions.ReadAsStringAsync(System.IO.Stream)
+  id: ReadAsStringAsync(System.IO.Stream)
+  isExtensionMethod: true
+  parent: McStreamy.StreamExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReadAsStringAsync(Stream)
+  nameWithType: StreamExtensions.ReadAsStringAsync(Stream)
+  fullName: McStreamy.StreamExtensions.ReadAsStringAsync(System.IO.Stream)
+  type: Method
+  source:
+    id: ReadAsStringAsync
+    path: ''
+    startLine: 673
+  assemblies:
+  - cs.temp.dll
+  namespace: McStreamy
+  summary: "\nReads the contents of stream from it&apos;s current point to the end and returns the result as a string.\n"
+  remarks: "\n<p>This overload uses the <xref href=\"System.Text.UTF8Encoding\" data-throw-if-not-resolved=\"false\"></xref> to convert the stream contents into a string.</p>\n"
+  example: []
+  syntax:
+    content: public static Task<string> ReadAsStringAsync(this Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream to read from.
+    return:
+      type: Task{System.String}
+      description: A <xref href="System.Threading.Tasks.Task" data-throw-if-not-resolved="false"></xref> whose result is the string representation of the stream contents.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadAsStringAsync(stream As Stream) As Task(Of String)
+  overload: McStreamy.StreamExtensions.ReadAsStringAsync*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">stream</code> is null.
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Thrown if the stream length is greater than <xref href="System.Int32.MaxValue" data-throw-if-not-resolved="false"></xref>.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: McStreamy.StreamExtensions.ReadAsStringAsync(Stream,Encoding)
+  commentId: M:McStreamy.StreamExtensions.ReadAsStringAsync(Stream,Encoding)
+  id: ReadAsStringAsync(Stream,Encoding)
+  parent: McStreamy.StreamExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReadAsStringAsync(Stream, Encoding)
+  nameWithType: StreamExtensions.ReadAsStringAsync(Stream, Encoding)
+  fullName: McStreamy.StreamExtensions.ReadAsStringAsync(Stream, Encoding)
+  type: Method
+  source:
+    id: ReadAsStringAsync
+    path: ''
+    startLine: 686
+  assemblies:
+  - cs.temp.dll
+  namespace: McStreamy
+  summary: "\nReads the contents of stream from it&apos;s current point to the end and returns the result as a string.\n"
+  example: []
+  syntax:
+    content: public static Task<string> ReadAsStringAsync(Stream stream, Encoding encoding)
+    parameters:
+    - id: stream
+      type: Stream
+      description: The stream to read from.
+    - id: encoding
+      type: Encoding
+      description: The text encoding to use when decoding the stream into a string.
+    return:
+      type: Task{System.String}
+      description: A <xref href="System.Threading.Tasks.Task" data-throw-if-not-resolved="false"></xref> whose result is the string representation of the stream contents.
+    content.vb: Public Shared Function ReadAsStringAsync(stream As Stream, encoding As Encoding) As Task(Of String)
+  overload: McStreamy.StreamExtensions.ReadAsStringAsync*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">stream</code> or <code data-dev-comment-type="paramref" class="paramref">encoding</code> is null.
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Thrown if the stream length is greater than <xref href="System.Int32.MaxValue" data-throw-if-not-resolved="false"></xref>.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: McStreamy
+  commentId: N:McStreamy
+  isExternal: false
+  name: McStreamy
+  nameWithType: McStreamy
+  fullName: McStreamy
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: McStreamy.StreamExtensions.WriteAllBytes*
+  commentId: Overload:McStreamy.StreamExtensions.WriteAllBytes
+  isExternal: false
+  name: WriteAllBytes
+  nameWithType: StreamExtensions.WriteAllBytes
+  fullName: McStreamy.StreamExtensions.WriteAllBytes
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: false
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+- uid: McStreamy.StreamExtensions.WriteAllBytesAsync*
+  commentId: Overload:McStreamy.StreamExtensions.WriteAllBytesAsync
+  isExternal: false
+  name: WriteAllBytesAsync
+  nameWithType: StreamExtensions.WriteAllBytesAsync
+  fullName: McStreamy.StreamExtensions.WriteAllBytesAsync
+- uid: Task
+  commentId: '!:Task'
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: McStreamy.StreamExtensions.ReadAllBytes*
+  commentId: Overload:McStreamy.StreamExtensions.ReadAllBytes
+  isExternal: false
+  name: ReadAllBytes
+  nameWithType: StreamExtensions.ReadAllBytes
+  fullName: McStreamy.StreamExtensions.ReadAllBytes
+- uid: McStreamy.StreamExtensions.ReadAllBytesAsync*
+  commentId: Overload:McStreamy.StreamExtensions.ReadAllBytesAsync
+  isExternal: false
+  name: ReadAllBytesAsync
+  nameWithType: StreamExtensions.ReadAllBytesAsync
+  fullName: McStreamy.StreamExtensions.ReadAllBytesAsync
+- uid: Task{System.Byte[]}
+  commentId: '!:Task{System.Byte[]}'
+  definition: Task`1
+  name: Task<Byte[]>
+  nameWithType: Task<Byte[]>
+  fullName: Task<System.Byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: Task(Of System.Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.UTF8Encoding
+  commentId: T:System.Text.UTF8Encoding
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32.MaxValue
+  commentId: F:System.Int32.MaxValue
+- uid: McStreamy.StreamExtensions.ReadAsString*
+  commentId: Overload:McStreamy.StreamExtensions.ReadAsString
+  isExternal: false
+  name: ReadAsString
+  nameWithType: StreamExtensions.ReadAsString
+  fullName: McStreamy.StreamExtensions.ReadAsString
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+- uid: Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: Stream
+- uid: Encoding
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: Encoding
+- uid: McStreamy.StreamExtensions.ReadAsStringAsync*
+  commentId: Overload:McStreamy.StreamExtensions.ReadAsStringAsync
+  isExternal: false
+  name: ReadAsStringAsync
+  nameWithType: StreamExtensions.ReadAsStringAsync
+  fullName: McStreamy.StreamExtensions.ReadAsStringAsync
+- uid: Task{System.String}
+  commentId: '!:Task{System.String}'
+  definition: Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

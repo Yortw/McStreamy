@@ -42,7 +42,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="docfx.json" />
+    <None Include="index.md" />
     <None Include="project.json" />
+    <None Include="toc.yml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Shared\AssemblyInfoCommon.cs">
@@ -68,6 +71,9 @@
     </CodeAnalysisDictionary>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>xcopy "$(SolutionDir)..\README.md" "$(ProjectDir)\index.md" /Y</PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
