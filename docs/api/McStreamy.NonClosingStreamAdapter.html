@@ -318,21 +318,21 @@ to the stream after you&apos;re done with that component.</p>
         <td id="McStreamy_NonClosingStreamAdapter_Dispose_System_Boolean_" data-uid="McStreamy.NonClosingStreamAdapter.Dispose(System.Boolean)">
           <a class="xref" href="McStreamy.NonClosingStreamAdapter.Dispose.html#McStreamy_NonClosingStreamAdapter_Dispose_System_Boolean_">Dispose(Boolean)</a>
         </td>
-        <td class="markdown level1 summary"><p>Does nothing, ensuring the wrapped stream is not closed/disposed.</p>
+        <td class="markdown level1 summary"><p>Calls <span class="xref">System.IO.Stream.Flush</span> on the underlying stream but does <em>not</em> dispose it.</p>
 </td>
       </tr>
       <tr>
         <td id="McStreamy_NonClosingStreamAdapter_Flush" data-uid="McStreamy.NonClosingStreamAdapter.Flush">
           <a class="xref" href="McStreamy.NonClosingStreamAdapter.Flush.html#McStreamy_NonClosingStreamAdapter_Flush">Flush()</a>
         </td>
-        <td class="markdown level1 summary"><p>Calls <span class="xref">System.IO.Stream.Flush()</span> on the wrapped stream.</p>
+        <td class="markdown level1 summary"><p>Calls <span class="xref">System.IO.Stream.Flush</span> on the wrapped stream.</p>
 </td>
       </tr>
       <tr>
         <td id="McStreamy_NonClosingStreamAdapter_Read_System_Byte___System_Int32_System_Int32_" data-uid="McStreamy.NonClosingStreamAdapter.Read(System.Byte[],System.Int32,System.Int32)">
           <a class="xref" href="McStreamy.NonClosingStreamAdapter.Read.html#McStreamy_NonClosingStreamAdapter_Read_System_Byte___System_Int32_System_Int32_">Read(Byte[], Int32, Int32)</a>
         </td>
-        <td class="markdown level1 summary"><p>Calls the <span class="xref">System.IO.Stream.Read(System.Byte[], System.Int32, System.Int32)</span> method on the wrapped stream.</p>
+        <td class="markdown level1 summary"><p>Calls the <span class="xref">System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)</span> method on the wrapped stream.</p>
 </td>
       </tr>
       <tr>
@@ -346,7 +346,7 @@ to the stream after you&apos;re done with that component.</p>
         <td id="McStreamy_NonClosingStreamAdapter_Seek_System_Int64_SeekOrigin_" data-uid="McStreamy.NonClosingStreamAdapter.Seek(System.Int64,SeekOrigin)">
           <a class="xref" href="McStreamy.NonClosingStreamAdapter.Seek.html#McStreamy_NonClosingStreamAdapter_Seek_System_Int64_SeekOrigin_">Seek(Int64, SeekOrigin)</a>
         </td>
-        <td class="markdown level1 summary"><p>Calls the <span class="xref">System.IO.Stream.Seek(System.Int64, System.IO.SeekOrigin)</span> method on the wrapped stream.</p>
+        <td class="markdown level1 summary"><p>Calls the <span class="xref">System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)</span> method on the wrapped stream.</p>
 </td>
       </tr>
       <tr>
@@ -367,7 +367,7 @@ to the stream after you&apos;re done with that component.</p>
         <td id="McStreamy_NonClosingStreamAdapter_Write_System_Byte___System_Int32_System_Int32_" data-uid="McStreamy.NonClosingStreamAdapter.Write(System.Byte[],System.Int32,System.Int32)">
           <a class="xref" href="McStreamy.NonClosingStreamAdapter.Write.html#McStreamy_NonClosingStreamAdapter_Write_System_Byte___System_Int32_System_Int32_">Write(Byte[], Int32, Int32)</a>
         </td>
-        <td class="markdown level1 summary"><p>Calls the <span class="xref">System.IO.Stream.Write(System.Byte[], System.Int32, System.Int32)</span> method on the wrapped stream.</p>
+        <td class="markdown level1 summary"><p>Calls the <span class="xref">System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)</span> method on the wrapped stream.</p>
 </td>
       </tr>
       <tr>

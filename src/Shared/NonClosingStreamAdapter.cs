@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -231,12 +231,13 @@ namespace McStreamy
 		}
 
 		/// <summary>
-		/// Does nothing, ensuring the wrapped stream is not closed/disposed.
+		/// Calls <see cref="System.IO.Stream.Flush"/> on the underlying stream but does *not* dispose it.
 		/// </summary>
 		/// <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2215:Dispose methods should call base class dispose", Justification="This method deliberately does nothing.")]
 		protected override void Dispose(bool disposing)
 		{
+			_Stream.Flush();
 		}
 
 #if NETSTANDARD

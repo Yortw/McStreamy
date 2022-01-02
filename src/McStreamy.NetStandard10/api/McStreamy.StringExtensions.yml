@@ -17,7 +17,7 @@ items:
   source:
     id: StringExtensions
     path: ''
-    startLine: 599
+    startLine: 600
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -58,7 +58,7 @@ items:
   source:
     id: ToStream
     path: ''
-    startLine: 610
+    startLine: 611
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
@@ -103,7 +103,7 @@ items:
   source:
     id: ToStream
     path: ''
-    startLine: 622
+    startLine: 623
   assemblies:
   - cs.temp.dll
   namespace: McStreamy

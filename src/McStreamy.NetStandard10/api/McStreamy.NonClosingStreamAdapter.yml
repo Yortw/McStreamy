@@ -686,7 +686,7 @@ items:
   assemblies:
   - cs.temp.dll
   namespace: McStreamy
-  summary: "\nDoes nothing, ensuring the wrapped stream is not closed/disposed.\n"
+  summary: "\nCalls <xref href=\"System.IO.Stream.Flush\" data-throw-if-not-resolved=\"false\"></xref> on the underlying stream but does *not* dispose it.\n"
   example: []
   syntax:
     content: protected override void Dispose(bool disposing)
